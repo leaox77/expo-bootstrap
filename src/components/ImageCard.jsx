@@ -90,48 +90,7 @@ const CardsSection = () => {
           ))}
         </div>
         
-        <div className="row mt-5">
-          <div className="col-12">
-            <div className="card border-primary">
-              <div className="card-header bg-primary text-white">
-                <h4 className="mb-0">
-                  <i className="bi bi-code-slash me-2"></i>
-                  Explicación para la exposición
-                </h4>
-              </div>
-              <div className="card-body">
-                <h5 className="card-title">Puntos clave a mencionar:</h5>
-                <ol className="list-group list-group-numbered">
-                  <li className="list-group-item d-flex">
-                    <div>
-                      <strong>CDN vs. Importación:</strong> Bootstrap se puede incluir via CDN (como en este proyecto en index.html) o importando los archivos SCSS/JS en React.
-                    </div>
-                  </li>
-                  <li className="list-group-item d-flex">
-                    <div>
-                      <strong>Sistema Grid:</strong> Bootstrap utiliza un sistema de 12 columnas que se adapta a diferentes tamaños de pantalla.
-                    </div>
-                  </li>
-                  <li className="list-group-item d-flex">
-                    <div>
-                      <strong>Componentes Reutilizables:</strong> Bootstrap ofrece componentes preconstruidos como navbars, cards, modals, etc.
-                    </div>
-                  </li>
-                  <li className="list-group-item d-flex">
-                    <div>
-                      <strong>Utilidades:</strong> Clases utilitarias para espaciado, colores, flexbox, display, etc.
-                    </div>
-                  </li>
-                  <li className="list-group-item d-flex">
-                    <div>
-                      <strong>Responsive Design:</strong> Mobile-first, se adapta automáticamente al dispositivo.
-                    </div>
-                  </li>
-                </ol>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );
