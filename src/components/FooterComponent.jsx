@@ -210,16 +210,7 @@ const FooterComponent = () => {
           </div>
         </div>
         
-        <div className="row mt-3">
-          <div className="col-12 text-center">
-            <div className="alert alert-dark alert-sm d-inline-flex align-items-center mb-0" role="alert">
-              <i className="bi bi-info-circle me-2"></i>
-              <small>
-                Esta aplicación demuestra tanto el uso de Bootstrap via CDN (index.html) como via importación en React (App.jsx)
-              </small>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </footer>
   );
